@@ -1,0 +1,21 @@
+Ejercicio 1:
+git remote add github url
+git remote -v
+
+Ejercicio 2:
+git push github master
+
+Ejercicio 3:
+git clone url
+echo autores.txt
+Yaneisi Israel Bonet yaneisiisrael@gmail.com
+git add .
+git commit -m "Añadido autor."
+git push origin master
+
+Ejercicio 4:
+git clone url
+git checkout -b autoria
+# Editar con nano el fichero autores.txt y añadir el nombre y el correo electrónico del usuario en una nueva línea.
+git commit -am "Añadido nuevo autor."
+git push origin autoria
