@@ -3,21 +3,21 @@ git remote add libro-git1 https://github.com/Yaneisi1999/libro-git1.git
 git remote -v
 
 Ejercicio 2:
-git push libro-git1 master
+git push  https://github.com/Yaneisi1999/libro-git1.git master
 
 Ejercicio 3:
-git clone https://github.com/sbiiancaa/libro-git.git
+git clone https://github.com/sbiiancaa/Eclipse2DAM.git
 echo autores.txt
-Yaneisi Israel Bonet yaneisiisrael@gmail.com
+Bianca Segovia sbiiancaa@gmail.com
 git add .
 git commit -m "Añadido autor."
 git push origin master
 
 Ejercicio 4:
-git clone https://github.com/Yaneisi1999/libro-git1.git
+git clone https://github.com/sbiiancaa/Eclipse2DAM.git
 git checkout -b autoria
 echo autores.txt
 Yaneisi Israel Bonet yaneisiisrael@gmail.com
 git add .
-git commit -am "Añadido nuevo autor."
+git commit -m "Añadido nuevo autor."
 git push origin autoria
