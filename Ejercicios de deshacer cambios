@@ -1,1 +1,42 @@
 Ejercicio 1:
+head -n -1 indice.txt > indice.tmp
+git add indice.txt
+git commit -m "Eliminar última línea de indice.txt"
+git checkout -- indice.txt
+git status
+
+Ejercicio 2:
+head -n -1 indice.txt > indice.tmp
+git add indice.txt
+git status
+git reset --HEAD
+git status
+head -n -1 indice.txt > indice.tmp
+git status
+
+Ejercicio 3:
+head -n -1 indice.txt > indice.tmp
+git rm capitulos/capitulo3.txt
+echo capitulos/capitulo4.txt
+git add capitulos/capitulo4.txt
+git status
+git reset --HEAD
+git status
+git reset --HEAD
+git status
+
+Ejercicio 4:
+head -n -1 indice.txt > indice.tmp
+git add indice.txt
+git rm capitulos/capitulo3.txt
+git add capitulos/capitulo3.txt
+git commit -m "Borrado accidental"
+git log
+git reset --HEAD^
+git log --oneline
+git status
+git commit -m "Borrado accidental"
+git reset --HEAD^
+git log --oneline
+git status
+
